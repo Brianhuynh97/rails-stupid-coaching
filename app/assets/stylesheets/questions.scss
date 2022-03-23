@@ -1,19 +1,49 @@
- $gray: #F4F4F4;
+.all-container {
+  padding: 24px 24px 0 24px;
+}
 
- body {
-   background: $gray; // Using this variable
- }
+.form-container {
+ display: flex;
+ justify-content: flex-start;
+}
 
-  .banner {
-   background: rgba(255,0,0,0.4);
-   h1 {
-     font-size: 50px;
-   }
- }
+#ask {
+  padding: 8px;
+  width: 75vw;
+  height: 40px;
+  border-radius: 8px 0 0 8px;
+  border: 1px solid rgb(216, 216, 216);
+}
 
-  a {
-   color: grey;
-   &:hover {
-     color: black;
-   }
- }
+#submit {
+ padding: 8px 16px;
+ background-color: rgb(38, 136, 216);
+ border: 0px solid rgb(216, 216, 216);
+ color: white;
+ border-radius: 0 8px 8px 0;
+}
+
+.your-question {
+  border-left: 10px solid rgb(218, 218, 218);
+  padding: 8px;
+}
+
+.your-question p, .coach-answer p {
+  margin: 0 0 0 16px;
+  padding: 8px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.coach-answer {
+  border-left: 10px solid rgb(218, 218, 218);
+  padding: 8px;
+  margin: 16px 0 16px 0;
+  background-color: rgb(253, 253, 215);
+}
+
+#title {
+  margin-top: 24px;
+}
